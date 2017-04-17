@@ -2,13 +2,16 @@
   <div>
     <head-bar :showBack=true :showMore=true :title="title"></head-bar>
     <h1>book</h1>
+    <parent-cmp></parent-cmp>
   </div>
 </template>
 <script>
-  import HeadBar from '../components/HeadBar.vue'
+  import HeadBar from '../components/HeadBar.vue';
+  import parentCmp from '../components/parentCmp.vue';
   export default {
     components: {
-      HeadBar
+      HeadBar,
+      parentCmp
     },
     data() {
       return {

@@ -1,19 +1,18 @@
 <template>
   <div class="home" :style="{height:getFullHeight}">
-    <!--<head-bar :showBack=false :showMore=false :title="title"></head-bar>
-    <app-list></app-list>-->
-    <masker style="border-radius: 2px;" color="2d2d2d" :opacity="0.8">
-      <div class="m-img" style="height: 100%;"></div>
-      <div slot="content" class="m-title">
-        ------ 每个人都有属于自己的电影 ------
-        <br/>
-          <router-link to="/movie" tag="a">
-            <x-button plain mini type="primary" style="border-radius:99px;color: #fff; border-color: #fff;margin-top: 40px">
-            点击进入
-            </x-button>
-          </router-link>
-      </div>
-    </masker>
+    <head-bar :showBack=false :showMore=false :title="title"></head-bar>
+    <app-list></app-list>
+    <!--<masker style="border-radius: 2px;" color="2d2d2d" :opacity="0.8">-->
+      <!--<div class="m-img" style="height: 100%;"></div>-->
+      <!--<div slot="content" class="m-title">-->
+        <!--&#45;&#45;&#45;&#45;&#45;&#45; 每个人都有属于自己的电影 &#45;&#45;&#45;&#45;&#45;&#45;-->
+        <!--<br/>-->
+        <!--<router-link to="/movie" tag="a">-->
+          <!--<x-button plain mini type="primary" style="border-radius:99px;color: #fff; border-color: #fff;margin-top: 40px">点击进入-->
+          <!--</x-button>-->
+        <!--</router-link>-->
+      <!--</div>-->
+    <!--</masker>-->
   </div>
 </template>
 
