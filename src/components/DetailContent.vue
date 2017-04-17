@@ -100,30 +100,5 @@
 
 <style lang="less" scoped>
   @import '~vux/src/styles/1px.less';
-
-  .card-padding {
-    padding: 15px;
-  }
-  .grid-center {
-    display: block;
-    text-align: center;
-    color: #666;
-  }
-  .weui-grid{
-    color: black;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  .vux-divider {
-    padding-bottom: 0;
-  }
-  .weui-grid:before,
-  .weui-grid:after,
-  .weui-grids:before,
-  .weui-grids:after {
-    border:none;
-  }
-  .movie-casts-text{
-    text-align: left;
-  }
+  @import './DetailContent.css';
 </style>
