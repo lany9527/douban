@@ -1,7 +1,6 @@
 <template>
   <div>
     <head-bar :showBack=true :showMore=true :title="title"></head-bar>
-    <search-movie></search-movie>
     <tab></tab>
   </div>
 </template>

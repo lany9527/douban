@@ -16,13 +16,13 @@
   import 'vue-awesome/icons/film'
   import 'vue-awesome/icons/music'
   import 'vue-awesome/icons/map-marker'
-  import 'vue-awesome/icons/bullseye'
+  import 'vue-awesome/icons/globe'
   const list = () => [
     {title: '图书', name: 'book', icon: 'book'},
     {title: '同城', name: 'asset', icon: 'map-marker'},
     {title: '音乐', name: 'product', icon: 'music'},
     {title: '电影', name: 'movie', icon: 'film'},
-    {title: '广播', name: 'message', icon: 'bullseye'},
+    {title: '天气', name: 'weather', icon: 'globe'},
   ];
   const color = () =>  [
     "#0e90d2",

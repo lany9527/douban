@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import Movie from '@/pages/Movie'
 import MovieDetail from '@/pages/MovieDetail'
 import Book from '@/pages/Book'
+import Weather from '@/pages/Weather'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/book',
       name: 'Book',
       component: Book
+    },
+    {
+      path: '/weather',
+      name: 'Weather',
+      component: Weather
     }
   ]
 })

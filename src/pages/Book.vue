@@ -2,17 +2,14 @@
   <div>
     <head-bar :showBack=true :showMore=true :title="title"></head-bar>
     <h1>book</h1>
-    <!--<parent-cmp></parent-cmp>-->
+    <parent-cmp></parent-cmp>
     <!--<timeago :since="time"></timeago>-->
     <br>
     <timeago :since="time" locale="zh-CN"></timeago>
     <button id="show-modal" @click="showModal = true">Show Modal</button>
     <modal v-if="showModal" @close="showModal = false">
-      <!--
-        you can use custom content here to overwrite
-        default content
-      -->
       <h3 slot="header">custom header</h3>
+      <p slot="body">custom body</p>
     </modal>
   </div>
 </template>
